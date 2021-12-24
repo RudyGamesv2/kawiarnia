@@ -13,7 +13,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .2s linear;
 }
 
@@ -639,4 +639,38 @@ section{
         font-size: 50%;
     }
 
+}
+
+h1{
+    color: white;
+}
+span{
+    color: var(--main-color);
+}
+.ec-cart-email__text{
+    color: rgb(126, 126, 126);
+}
+p{
+    color: white;
+
+}
+
+.koleda{
+    align-items: center;
+    text-align: center;
+}
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid-product__wrap-inner:hover .grid-product__title .grid-product__title-inner {
+    color: var(--main-color);
+}
+.product-details-module__title{
+    color: var(--main-color);
+}
+.form-control__inline-label{
+    color:white;
+}
+.ec-confirmation, .ec-confirmation--zero-total{
+    color: white;
+}
+.ec-cart-summary__title{
+    color:rgb(173, 173, 173)
 }
